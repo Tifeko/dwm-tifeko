@@ -34,7 +34,7 @@ static const char *const autostart[] = {
   "dbus-update-activation-environment", "--systemd", "--all", NULL,
   "flameshot", NULL,
   "dunst", NULL,
-  "picom", NULL,
+  "picom", "--animations", "-b", NULL,
   "feh", "--bg-fill", "/home/tijnk/chicken.jpg", NULL,
   "volumeicon", NULL,
   "vesktop", NULL,
