@@ -35,6 +35,7 @@ static const char *const autostart[] = {
   "flameshot", NULL,
   "dunst", NULL,
   "picom", "--animations", "-b", NULL,
+  "/home/tijnk/.screenlayout/default.sh", NULL,
   "feh", "--bg-fill", "/home/tijnk/chicken.jpg", NULL,
   "volumeicon", NULL,
   "vesktop", NULL,
