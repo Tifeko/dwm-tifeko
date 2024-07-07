@@ -13,6 +13,9 @@ static const int showsystray              = 1;      /* 0 means no systray */
 static const int showbar                  = 1;      /* 0 means no bar */
 static const int topbar                   = 1;      /* 0 means bottom bar */
 static const char *fonts[]                = { "JetBrainsMono NFM:size=16", "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true"  };
+#define ICONSIZE                            17      /* icon size */
+#define ICONSPACING                         5       /* space between icon and title */
+#define SHOWWINICON                         1       /* 0 means no winicon */
 static const char normbordercolor[]       = "#3B4252";
 static const char normbgcolor[]           = "#2E3440";
 static const char normfgcolor[]           = "#D8DEE9";
